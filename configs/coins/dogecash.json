@@ -52,6 +52,8 @@
         "parse": true,
         "mempool_workers": 8,
         "mempool_sub_workers": 2,
+        "slip44": 385,
+        "xpub_magic": 36513075,
         "block_addresses_to_keep": 300,
         "additional_params": {}
       }
