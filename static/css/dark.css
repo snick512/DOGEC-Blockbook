@@ -92,12 +92,12 @@ h3 {
     margin: 0;
     padding-bottom: 0;
     padding-top: 0;
-    background-color: #777;
+    background-color: #000;
     border: 0;
 }
 
 .bg-trezor {
-    background-color: #777!important;
+    background-color: #000!important;
     height: 53px;
 }
 
@@ -120,7 +120,7 @@ h3 {
 }
 
 #footer {
-    background-color: #777;
+    background-color: #000;
     color: #FFF;
     height: 53px;
     overflow: hidden;
@@ -263,7 +263,7 @@ table.data-table table.data-table th {
 }
 
 .page-item.active .page-link {
-    background-color: #b6a27e;
+    background-color: #ccc;
 }
 
 #txSpecific {
@@ -283,5 +283,5 @@ table.data-table table.data-table th {
 }
 
 .key {
-    color: #ccc ;
+    color: #FFF;
 }
