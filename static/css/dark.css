@@ -9,6 +9,7 @@ body {
     background-color: #212121;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
     font-size: 11px;
+    color: #FFF;
 }
 
 a {
@@ -127,7 +128,7 @@ h3 {
 }
 
 .alert-data {
-    color: #f4f4f4;
+    color: #b6a27e;
     background-color: #383d41;
     border-color: #d6d8db;
     padding: 15px;
@@ -233,13 +234,13 @@ table.data-table table.data-table th {
 }
 
 ::-webkit-input-placeholder {
-    color: #CCC!important;
+    color: #FFF!important;
     font-style: italic;
     font-size: 14px;
 }
 
 ::-moz-placeholder {
-    color: #CCC!important;
+    color: #FFF!important;
     font-style: italic;
     font-size: 14px;
 }
