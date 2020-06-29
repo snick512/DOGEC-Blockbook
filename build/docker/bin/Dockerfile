@@ -41,9 +41,9 @@ RUN \
     cleanup() { rm -rf $GOPATH/src/blockbook; } && \
     trap cleanup EXIT && \
     cd $GOPATH/src && \
-    git clone https://github.com/trezor/blockbook.git && \
+    git clone https://github.com/liquid369/blockbook.git && \
     cd blockbook && \
-    dep ensure -vendor-only && \
+    env GO111MODULE=on go mod vendor && \
     cp -r vendor /build/vendor
 
 ADD Makefile /build/Makefile
